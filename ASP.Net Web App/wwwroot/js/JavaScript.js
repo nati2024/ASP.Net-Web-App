@@ -4,7 +4,7 @@
 //        ", Message: " + document.getElementById("txtMessage").value);
 //})
 $("#btnSend").click(function () {
-	// Getting input from user into height variable.
+	// Getting input from user into variable.
 	let assignments = $("#assignments").val() * .50;
 	let project = $("#project").val() * .10;
 	let quiz = $("#quiz").val() * .10;
@@ -14,7 +14,6 @@ $("#btnSend").click(function () {
 	let grades = "";
 	// Input is string so typecasting is necessary. */
 	let percentage = (assignments + project + quiz + mid + fin + intex);
-	// Checking the condition for the providing the
 	// grade to student based on percentage
 	if (percentage >= 94) {
 		grades = "A";
