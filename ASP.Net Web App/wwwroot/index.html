@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>First Web App</title>
+    <link rel="icon" type="image/x-icon" href="img/dogicon.jpg">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Natalie Kearl</h1>
+    <img id="friends" src="img/IMG-1306.JPEG"
+         width="800"
+         height="600" />
+    <p>
+        I hope to learn new skills in the IS 413 class that will be beneficial to have
+        for future internships and jobs. Besides being able to complete the learning objectives of this
+        course such as being able to build web apps and to create Razor pages using the fundamentals of C#,
+        I also hope that this class will increase my confidence in my abilities to solve tech related
+        problems in the workplace.
+    </p>
+    <br />
+    <p>Top 3 Jobs</p>
+    <ul>
+        <li>#1 - Data Analyst</li>
+        <li>#2 - Product Manager</li>
+        <li>#3 - Information Security Analyst</li>
+    </ul>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/JavaScript.js"></script>
+    <!-- main html  -->
+    <div class="container">
+        <h1>Student grade calculator</h1>
+        <div class="screen-body-item">
+            <div class="app">
+                <form>
+                    <div class="form-group">
+                        <!-- option for taking the input -->
+                        <input type="text"
+                               class="form-control"
+                               placeholder="Assignments"
+                               id="assignments" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text"
+                               class="form-control"
+                               placeholder="Group Project"
+                               id="project" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text"
+                               class="form-control"
+                               placeholder="Quizzes"
+                               id="quiz" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text"
+                               class="form-control"
+                               placeholder="Midterm Exam"
+                               id="mid" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text"
+                               class="form-control"
+                               placeholder="Final Exam"
+                               id="fin" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text"
+                               class="form-control"
+                               placeholder="INTEX"
+                               id="intex" />
+                    </div>
+                    <div>
+                        <input id="btnSend"
+                               type="button"
+                               value="show Percentage"
+                               class="form-button"
+                               onclick="calculate()" />
+                    </div>
+                    <!-- for showing the result-->
+                    <div class="form-group showdata">
+                        <label id="showdata"></label>
+                    </div>
+                </form>
+                <script src="js/JavaScript.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
