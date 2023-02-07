@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.Net Web App", "ASP.Net Web App\ASP.Net Web App.csproj", "{9932C596-D916-42D2-8B66-90C913580B4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNetWebApp", "ASP.Net Web App\ASPNetWebApp.csproj", "{9932C596-D916-42D2-8B66-90C913580B4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

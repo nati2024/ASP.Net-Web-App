@@ -5,8 +5,4 @@
     <RootNamespace>ASP.Net_Web_App</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="wwwroot\Index.html" />
-  </ItemGroup>
-
 </Project>
